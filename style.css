@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+  --text-preset-1: 700 22px/26px 'Outfit', sans-serif;
+  --text-preset-2: 400 14px/21px 'Outfit', sans-serif;
+
+  --Slate-900: hsl(218, 44%, 22%);
+  --Slate-500: hsl(216, 15%, 48%);
+  --Slate-500: hsl(212, 45%, 89%);
+  --White: hsl(0, 0%, 100%);
+
+  --Space-200: 16px;
+  --Space-300: 24px;
+  --Space-500: 40px;
+}
+

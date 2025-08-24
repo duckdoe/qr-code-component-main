@@ -6,7 +6,7 @@
 
   --Slate-900: hsl(218, 44%, 22%);
   --Slate-500: hsl(216, 15%, 48%);
-  --Slate-500: hsl(212, 45%, 89%);
+  --Slate-300: hsl(212, 45%, 89%);
   --White: hsl(0, 0%, 100%);
 
   --Space-200: 16px;
@@ -14,3 +14,44 @@
   --Space-500: 40px;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--Slate-300);
+  font-family: 'Outfit', sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+h1, p{
+  text-align: center;
+}
+
+h1{
+  color: var(--Slate-900);
+  font: var(--text-preset-1);
+  margin-top: 24px;
+}
+
+p{
+  color: var(--Slate-500);
+  font: var(--Slate-300);
+  margin-top: 16px;
+}
+
+main{
+  width: 320px;
+  padding: var(--Space-200) var(--Space-200) var(--Space-500) var(--Space-200) ;
+  background: var(--White);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
